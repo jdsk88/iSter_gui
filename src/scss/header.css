@@ -1,0 +1,29 @@
+#root > div.notification-bar {
+    background-color: rgba(0, 0, 0, 0.856);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 18px;
+    line-height: 18px;
+}
+#root > nav.navbar-top{
+    background-color: #d0ced1;
+    position: fixed;
+    top: 18px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    width: 100vw;
+    height: 50px;
+}
