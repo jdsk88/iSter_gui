@@ -6,16 +6,27 @@
     left: 0;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100vw;
-    height: 18px;
-    line-height: 18px;
+    height: 25px;
+    line-height: 25px;
+    color: white;
+}
+#root > div.notification-bar > .notification-bar-item {
+    width: 3.3rem;
+}
+.weather-small > svg {
+    height: 25px;
+}
+.weather-small {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 #root > nav.navbar-top{
     background-color: #d0ced1;
     position: fixed;
-    top: 18px;
+    top: 25px;
     right: 0;
     left: 0;
     z-index: 1030;

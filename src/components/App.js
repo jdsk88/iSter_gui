@@ -21,7 +21,7 @@ const App = props => {
     <Router>
       <Header />
       <Switch>
-        <Route exactly path='/' component={Lighting} />
+        {/* <Route exactly path='/' component={Lighting} /> */}
         <Route exactly path='/music' component={Music} />
         <Route exactly path='/video' component={Video} />
         <Route exactly path='/lighting' component={Lighting} />

@@ -7,7 +7,7 @@ const DigitalClock = () => {
 
     // time interval
     setInterval(function () {
-          const time = date.format(new Date(), 'h:m A');
+          const time = date.format(new Date(), 'hh:mm A');
         // const timeH = date.format(new Date(), "HH" + " " + ":");
         // const timeM = date.format(new Date(), "mm" + " " + ":");
         // const timeS = date.format(new Date(), "ss");

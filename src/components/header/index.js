@@ -8,11 +8,12 @@ const Header = () => {
     return (<>
 
 <div className="notification-bar">
-<div>1</div>
-<div>1</div>
+<div className="notification-bar-item weather-small">
+<i className="fa fa-cloud"></i>
+<div>13c</div>
+</div>
 <DigitalClock />
-<div>1</div>
-<div>1</div>
+<div className="notification-bar-item">1</div>
 </div>
 <nav className="navbar-top">
 

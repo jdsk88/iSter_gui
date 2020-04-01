@@ -12,8 +12,6 @@
     padding: 0px 0px 0px 0px;
     padding-inline-start: 0;
     margin: 0 0 0 0;
-    box-sizing: border-box;
-
 }
 
 #root > div > nav > a.topbar-item {
@@ -35,6 +33,7 @@
     border: solid gray  2px;
     border-style: inset;
     background-color: #6d6a6f;
+    color: blue;
 }
 #root > div > nav > a.topbar-item.hover{
     color: none;

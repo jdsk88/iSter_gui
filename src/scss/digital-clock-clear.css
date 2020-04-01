@@ -5,7 +5,7 @@
   
 div.clock{
     display: flex;
-    justify-content: space-around;
+    justify-content: stretch;
 }
 .title-clock{
     width: auto;
