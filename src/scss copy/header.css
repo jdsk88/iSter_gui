@@ -1,0 +1,40 @@
+#root > div.notification-bar {
+    background-color: rgba(0, 0, 0, 0.856);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100vw;
+    height: 25px;
+    line-height: 25px;
+    color: white;
+}
+#root > div.notification-bar > .notification-bar-item {
+    width: 3.3rem;
+}
+.weather-small > svg {
+    height: 25px;
+}
+.weather-small {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#root > nav.navbar-top{
+    background-color: #d0ced1;
+    position: fixed;
+    top: 25px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    width: 100vw;
+    height: 50px;
+}

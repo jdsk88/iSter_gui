@@ -1,58 +1,42 @@
-/* * {outline: red 1px solid} */
-#root > nav.navbar-bottom {
+/* #root > div.navbar-parent {
+} */
+#root > div.navbar-parent > nav.navbar-bottom-fucking-overflow{
     position: fixed;
-    right: 0;
+    bottom: 0;
     left: 0;
-    margin-bottom: 0;
-    bottom: 0px;
-    z-index: 1030;
-    display: flex;
-    flex-direction: row;
-    justify-content: stretch;
     width: 100vw;
-    box-sizing: border-box;
-    /* overflow-x: scroll; */
-}
+    height: 50px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    overflow-x: scroll;
 
-#root > nav.navbar-bottom > a{
+}
+#root > div.navbar-parent > nav > a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
     background-color: #d0ced1;
     padding: 5px;
     text-decoration: none;
     box-sizing: border-box;
     border-radius: 0px;
-    width: 33.33vw;
+    width: 16.666vw;
     color: rgb(61, 61, 61);
     border: solid gray 1px;
     border-style: outset;
 }
-#root > nav.navbar-bottom > a.active{
+#root > div.navbar-parent > nav > a.active{
     border: solid gray  2px;
     border-style: inset;
     background-color: #6d6a6f;
-}
-#root > nav.navbar-bottom > a.hover{
-    color: none;
-}
-#root > nav.navbar-bottom > a.navbar-item > label  {
-    margin: 0;
-    text-transform: uppercase;
-    line-height: 30px;
-}
-
-#root > nav.navbar-bottom > a.navbar-item.active > label {
     color: #32f0ec;
+    text-shadow: #32f0ec 1px 1px 1px 1px;
+}
+#root > div.navbar-parent > nav > a.navbar-item > svg {
+    font-size: 1.66rem;
 }
 
-#root > nav.navbar-bottom > a.navbar-item.active > svg {
-    color: #32f0ec;
+@media screen and (min-width: 650px) {
+   
 }
-#root > nav.navbar-bottom > a.navbar-item > svg {
-    font-size: 1.5rem;
-}
-
-
-

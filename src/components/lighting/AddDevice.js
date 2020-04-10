@@ -5,7 +5,7 @@ console.log('Add Device component loaded');
 
 const AddDevice = () => {
     return (<>
-       <h1>Add device</h1>
+       <div className="page-layout"><h1>Add device</h1></div>
     </>);
 }
 export default AddDevice

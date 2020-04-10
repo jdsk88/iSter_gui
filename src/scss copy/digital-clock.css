@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'digital7';
+    src: url('../fonts/digital-7.ttf') format('truetype');
+  }
+  
+div.clock{
+    display: flex;
+    justify-content: space-around;
+    border: 4px solid;
+    border-style: inset;
+}
+.title-clock{
+    width: 30px;
+    background-color: rgba(8, 0, 43, 0.856);
+}
+#timeH, #timeM, #timeS{
+    padding: 0;
+    margin-top: 0;
+    color: rgb(45, 210, 240);
+    /* font-size: 1.5rem; */
+    font-family: digital7;
+    text-align: center;
+  }

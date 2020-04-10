@@ -1,0 +1,45 @@
+@media screen and (max-width:650px){
+    body{
+
+    overflow-y: auto;
+}
+}
+
+/* .device-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.device-table {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: black 1px solid;
+}
+.device-table>tbody {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 5v px;
+    box-sizing: border-box;
+}
+.device-table>tbody>tr {
+    width: 100%;
+    display: flex;
+    border-style: inset;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+.device-table>tbody>tr>td {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    padding-inline-start: 0;
+} */

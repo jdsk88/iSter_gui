@@ -1,0 +1,63 @@
+#root > div > nav.topbar {
+    position: sticky;
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: 1030;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    width: 100%;
+    height: 50px;
+    padding: 0px 0px 0px 0px;
+    padding-inline-start: 0;
+    margin: 0 0 0 0;
+}
+
+#root > div > nav > a.topbar-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #d0ced1;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 0px;
+    width: 50%;
+    color: rgb(61, 61, 61);
+    border: solid gray 1px;
+    border-style: outset;
+    box-sizing: border-box;
+}
+#root > div > nav > a.topbar-item.active{
+    border: solid gray  2px;
+    border-style: inset;
+    background-color: #6d6a6f;
+    color: blue;
+}
+#root > div > nav > a.topbar-item.hover{
+    color: none;
+}
+#root > div > nav > a.topbar-item > label {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.75rem;
+}
+#root > div > nav > a.topbar-item.active > label {
+    color: #32f0ec;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ; */
+    /* font-size: 1.2rem; */
+
+    /* font-size: 1.3rem; */
+}
+
+#root > div > nav > a.topbar-item.active > svg {
+    color: #32f0ec;
+}
+#root > div > nav > a.topbar-item > svg {
+    font-size: 1.5rem;
+}
+
+
+

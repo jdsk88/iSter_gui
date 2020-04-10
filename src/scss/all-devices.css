@@ -1,0 +1,13 @@
+.all-devices {
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+@media screen and (min-width: 650px) {
+    .all-devices {
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    
+    
+}
