@@ -16,8 +16,7 @@ const Lighting = () => {
 
 
 
-    <div className="page-layout">
-    </div>
+    <div className="page-layout page-title">Lighting manegement page</div>
                 {/* <Router> 
                     <Topbar />
                     <h3>Lighting setup page</h3>

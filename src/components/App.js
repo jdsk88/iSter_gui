@@ -23,7 +23,7 @@ const App = props => {
   return (<>
     <Router>
       <Header />
-      <Switch>
+      <Switch className="page-layout">
         <Route exactly path='/music' component={Music} />
         <Route exactly path='/video' component={Video} />
         <Route exactly path='/lighting' component={Lighting} />

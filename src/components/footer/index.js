@@ -24,6 +24,7 @@ const Footer = () => {{
             label: "Item 6",
             target: "item-6"
         },]
+        
         return (
             <div>
                 <NavBar items={navbarItems} offset={-80} duration={500} delay={0}>

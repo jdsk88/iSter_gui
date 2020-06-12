@@ -6,11 +6,7 @@ const Video = () => {
     return (<>
 
 
-<div className="page-layout">
-<h1> video page</h1>
-
-
-</div>
+<div className="page-layout page-title">Visual manegement page</div>
 
 
     </>);

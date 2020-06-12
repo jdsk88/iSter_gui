@@ -9,17 +9,17 @@ const Footer = () => {
             <nav className="navbar-bottom-fucking-overflow">
                         <NavLink to='/music' className="navbar-item">
                             <i className="fas fa-music"></i>
-                            <label className="navbar-item-label">Music</label>
+                            <label className="navbar-item-label">Audio</label>
                         </NavLink>
                         <NavLink to='/video' className="navbar-item">
                             <i className="fas fa-tv"></i>
-                            <label className="navbar-item-label">Videos</label>
+                            <label className="navbar-item-label">Visual</label>
                         </NavLink>
                         <NavLink to='/lighting' className="navbar-item">
                             <i className="fas fa-lightbulb"></i>
                             <label className="navbar-item-label">Lighting</label>
                         </NavLink>
-                        <NavLink to='/music' className="navbar-item">
+                        {/* <NavLink to='/music' className="navbar-item">
                             <i className="fas fa-music"></i>
                             <label className="navbar-item-label">Music</label>
                         </NavLink>
@@ -30,10 +30,10 @@ const Footer = () => {
                         <NavLink to='/lighting' className="navbar-item">
                             <i className="fas fa-lightbulb"></i>
                             <label className="navbar-item-label">Lighting</label>
-                        </NavLink>
+                        </NavLink> */}
             </nav>
         </div>
-         <nav className="sidebar">
+         {/* <nav className="sidebar">
              <div className="sidebar-title">Rooms</div>
             <NavLink to='/all_devices' className="sidebar-item">
                 <i className="fas fa-door-open"></i>
@@ -49,7 +49,7 @@ const Footer = () => {
                     <label className="sidebar-item-label">settings</label>
                 </div>
             </NavLink>
-        </nav>
+        </nav> */}
     </>);
 }
 export default Footer

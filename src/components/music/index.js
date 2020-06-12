@@ -5,11 +5,7 @@ console.log('Music componentd loaded');
 const Music = () => {
     return (<>
 
-<div className="page-layout">
-<h1> music page</h1>
-
-
-</div>
+<div className="page-layout page-title">Audio manegement page</div>
 
     </>);
 

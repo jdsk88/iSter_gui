@@ -4,7 +4,7 @@ console.log('Settings component loaded');
 
 const Settings = () => {
     return (<>
-        <div className="page-layout">
+        {/* <div className="page-layout">
             <div class="input-group mb-3">
                 <div class="input-group-prepend">
                     <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
@@ -18,7 +18,7 @@ const Settings = () => {
                 </div>
                 <input type="text" class="form-control" aria-label="Text input with dropdown button" />
     </div>
-        </div>
+        </div> */}
     </>);
 }
 export default Settings

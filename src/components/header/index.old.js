@@ -15,9 +15,9 @@ const Header = () => {
 <DigitalClock />
 <div className="notification-bar-item">1</div>
 </div>
-<nav className="navbar-top">
+{/* <nav className="navbar-top"> */}
 
-</nav>
+{/* </nav> */}
 
     </>);
 

@@ -16,7 +16,7 @@ class Switch4 extends React.Component {
 
 
     componentDidMount() {
-        axios.get(api_url + `/devices?type=switch-4`)
+        axios.get(api_url + `/esp-list/deviceType=Switch-4`)
             .then(res => {
                 const devices = res.data;
                 console.log('devices mounted')
