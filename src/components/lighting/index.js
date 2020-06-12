@@ -7,6 +7,7 @@ import AddDevice from './AddDevice'
 import Settings from '../lighting/Settings'
 import AllDevices from '../lighting/AllDevices';
 import Sidebar from '../sidebar/index';
+import PagePowerBtn from '../page-power-btn/index';
 // import Ireg from '../devices/iReg/index'
 
 console.log('Lighting componentd loaded');
@@ -16,7 +17,10 @@ const Lighting = () => {
 
 
 
-    <div className="page-layout page-title">Lighting manegement page</div>
+    <div className="horizontal-flex">
+        <div className="page-layout page-title">Lighting manegement page</div>
+        <PagePowerBtn />
+    </div>
                 {/* <Router> 
                     <Topbar />
                     <h3>Lighting setup page</h3>
