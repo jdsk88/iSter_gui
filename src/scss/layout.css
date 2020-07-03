@@ -3,7 +3,7 @@
 #root {
     position: fixed;
     /* margin-top:25px; */
-    top:25px;
+    /* top:85px; */
     bottom: 75px;
     width: 100vw;
     height: 100vh;
@@ -67,10 +67,10 @@
 #root {
     position: fixed;
     top:25px;
-    bottom: 75px;
+    bottom: 150px;
     width: 100vw;
-    height: 100vh;
-    border:rgb(0, 253, 241) 3px solid;
+    /* height: 100vh; */
+    border:rgb(0, 253, 241) 0px solid;
     border-style: inset;
     box-sizing: border-box;
 }

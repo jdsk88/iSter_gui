@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import '../scss/App.css';
 import Header from './header/index';
 import Footer from './footer/index.old';
+import TopNav from './topnav/index.old';
 import '../scss/header.css';
 import '../scss/footer.css';
 import '../scss/layout.css';
+import '../scss/topnav.css';
 // import '../../node_modules/bootstrap/dist/css/bootstrap.css';
 // import '../../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
 import '../../node_modules/@fortawesome/fontawesome-free/js/all.js'
@@ -23,6 +25,7 @@ const App = props => {
   return (<>
     <Router>
       <Header />
+      <TopNav />
       <Switch className="page-layout">
         <Route exactly path='/music' component={Music} />
         <Route exactly path='/video' component={Video} />
