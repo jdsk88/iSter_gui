@@ -193,5 +193,16 @@
   font-size: 1.66rem;
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 450px) {
+  #root > div.navbar-parent > nav.navbar-bottom-fucking-overflow {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 60px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    overflow-x: hidden;
+  }
 }

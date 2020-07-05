@@ -28,7 +28,7 @@ const Footer = () => {
             <i className="far fa-window-maximize"></i>
             <label className="navbar-item-label">Shades</label>
           </NavLink>
-          <NavLink to="/plan" className="navbar-item">
+          <NavLink to="/plans" className="navbar-item">
             <i className="fas fa-building"></i>
             <label className="navbar-item-label">Building Plan</label>
           </NavLink>

@@ -284,7 +284,7 @@
 /* #root > div.top-navbar-parent > nav > a.top-navbar-item.active > label ,#root > div.top-navbar-parent > nav > button:active > label{
     display: flex;
   } */
-  
+
 #root > div.top-navbar-parent > nav > a.top-navbar-item > svg,
 #root > div.top-navbar-parent > nav > button > svg {
   margin-top: 7.5px;

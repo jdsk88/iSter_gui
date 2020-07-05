@@ -19,6 +19,9 @@ import Lighting from '../components/lighting/index';
 import AddDevice from '../components/lighting/AddDevice';
 import AllDevices from '../components/lighting/AllDevices';
 import Settings from '../components/lighting/Settings';
+import Climate from './climate';
+import Shades from './shades';
+import Plans from './plans';
 
 const App = props => {
 
@@ -30,10 +33,10 @@ const App = props => {
         <Route exactly path='/music' component={Music} />
         <Route exactly path='/video' component={Video} />
         <Route exactly path='/lighting' component={Lighting} />
-        <Route exactly path='/add_device' component={AddDevice} />
-        <Route exactly path='/all_devices' component={AllDevices} />
-        <Route exactly path='/lighting_settings' component={Settings} />
-        <Route path='/' render={() => <h1 className="page-layout">welcome!</h1>} />
+        <Route exactly path='/climate' component={Climate} />
+        <Route exactly path='/shades' component={Shades} />
+        <Route exactly path='/plans' component={Plans} />
+        <Route path='/home' render={() => <h1 className="page-layout">welcome home!</h1>} />
         {/* <Route render={() => <h1 className="page-layout">Welcome!</h1>} /> */}
       </Switch>
       <Footer />

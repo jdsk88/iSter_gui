@@ -16,18 +16,18 @@ const TopNav = () => {
             <label className="top-navbar-item-label">Previus</label>
             <i className="fas fa-arrow-circle-left"></i>
           </button>
-          <div className="top-navbar-item">
+          {/* <div className="top-navbar-item">
           </div>
-          <div className="top-navbar-item">
-          </div>
+          <div className="top-navbar-item"> 
+          </div>*/}
           <NavLink to="/home" className="top-navbar-item">
             <i className="fas fa-home"></i>
             <label className="top-navbar-item-label">Home</label>
           </NavLink>
-          <div className="top-navbar-item">
+          {/* <div className="top-navbar-item">
           </div>
           <div className="top-navbar-item">
-          </div>
+          </div> */}
           <NavLink to="/right" className="top-navbar-item">
             <i className="fas fa-cog"></i>
             <label className="top-navbar-item-label">Settings</label>
