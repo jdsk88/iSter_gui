@@ -1,24 +1,24 @@
 /* more than 650px width css */
-@media only screen and (min-width: 650px) {
-#root {
+/* @media only screen and (min-width: 650px) { */
+  #root {
     position: fixed;
     /* margin-top:25px; */
     /* top:85px; */
     bottom: 75px;
     width: 100vw;
     height: 100vh;
-    border:rgb(0, 217, 255) 3px solid;
+    border: rgb(0, 217, 255) 3px solid;
     border-style: inset;
     box-sizing: border-box;
 
     /* overflow-x: hidden;
     overflow-y: hidden; */
-}
+  }
 
-#root > div.horizontal-flex{
+  #root > div.horizontal-flex {
     display: flex;
     flex-direction: row;
-     
+
     background: rgba(76, 76, 76, 1);
     background: -moz-linear-gradient(
       top,
@@ -100,14 +100,14 @@
       rgba(19, 19, 19, 1) 100%
     );
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=0 );
-  height: 48px;
-}
+    height: 48px;
+  }
 
-#root > div.horizontal-flex > div.page-layout.page-title{
+  #root > div.horizontal-flex > div.page-layout.page-title {
     margin-top: 0px;
     width: 80%;
     padding: 0px;
-    font-size: 28px;
+    font-size: 16px;
     color: silver;
     border: 0;
     border-radius: 0;
@@ -116,84 +116,95 @@
     text-shadow: none;
   }
 
-#root > div.horizontal-flex > div.page-layout.page-power-btn{
+  #root > div.horizontal-flex > div.page-layout.page-power-btn > label > span {
+    /* height: 32px; */
+    /* margin-top: 8px; */
+    /* width: 75px; */
+
+  }
+  #root > div.horizontal-flex > div.page-layout.page-power-btn > label > span.el-switch-style::before{
+  /* background-image: url("../img/logo.svg"); */
+  background-color: rgba(0, 0, 0, 1);
+  /* top: -4px; */
+  /* padding: 5px; */
+ }
+  #root > div.horizontal-flex > div.page-layout.page-power-btn {
     margin-top: 0px;
-       width: 20%;
-        padding: 0px;
-        font-size: 28px;
-        line-height: 48px;
-        color: silver;
-        text-shadow: none;
-border: 0;
-        border-radius: 0;
-        background-color: transparent;
-    }
-
-}
-
+    width: 20%;
+    /* padding: 0px; */
+    /* height: 32px;
+    line-height: 48px; */
+    /* font-size: 28px; */
+    /* line-height: 48px; */
+    /* color: silver; */
+    /* text-shadow: none; */
+    border: 0;
+    border-radius: 0;
+    background-color: transparent;
+  }
+/* } */
 
 /* mobile css */
 
 #root {
-    position: fixed;
-    top:25px;
-    bottom: 150px;
-    width: 100vw;
-    /* height: 100vh; */
-    border:rgb(0, 253, 241) 0px solid;
-    border-style: inset;
-    box-sizing: border-box;
+  position: fixed;
+  top: 25px;
+  bottom: 150px;
+  width: 100vw;
+  /* height: 100vh; */
+  border: rgb(0, 253, 241) 0px solid;
+  border-style: inset;
+  box-sizing: border-box;
 }
 
 .horizontal-flex {
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(231, 231, 231);
-    width: 100%;
-    height: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(231, 231, 231);
+  width: 100%;
+  height: 100%;
 }
 
-.page-title{
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    width: max-content;
-    height: max-content;
-    padding: 10px;
-    text-align: center;
-    text-shadow: 1px 1px #32f0ec;
-    font-size: 16px;
-    font-weight: bold;
-    word-wrap: break-word;
-    color: rgb(0, 0, 0);
-    border:rgb(180, 179, 179) 4px solid;
-    border-radius: 15px;
-    border-style: outset;
-    box-sizing: border-box;
-    background-color: rgb(172, 172, 169);
-    
+.page-title {
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  height: max-content;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 1px 1px #32f0ec;
+  font-size: 16px;
+  font-weight: bold;
+  word-wrap: break-word;
+  color: rgb(0, 0, 0);
+  border: rgb(180, 179, 179) 4px solid;
+  border-radius: 15px;
+  border-style: outset;
+  box-sizing: border-box;
+  background-color: rgb(172, 172, 169);
 }
 .page-power-btn {
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    width: max-content;
-    height: max-content;
-    padding: 10px;
-    text-align: center;
-    text-shadow: 1px 1px #32f0ec;
-    font-size: 16px;
-    font-weight: bold;
-    word-wrap: break-word;
-    color: rgb(0, 0, 0);
-    border:rgb(180, 179, 179) 4px solid;
-    border-radius: 15px;
-    border-style: outset;
-    box-sizing: border-box;
-    background-color: rgb(172, 172, 169);
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  height: max-content;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 1px 1px #32f0ec;
+  font-size: 16px;
+  font-weight: bold;
+  word-wrap: break-word;
+  color: rgb(0, 0, 0);
+  border: rgb(180, 179, 179) 4px solid;
+  border-radius: 15px;
+  border-style: outset;
+  box-sizing: border-box;
+  background-color: rgb(172, 172, 169);
 }
 .subpage-layout {
-    width: 100%;
-    height: 100%;
-    background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
 }

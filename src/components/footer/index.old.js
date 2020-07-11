@@ -3,6 +3,13 @@ import { NavLink } from "react-router-dom";
 
 console.log("Footer componentd loaded");
 
+
+
+
+
+
+
+
 const Footer = () => {
   return (
     <>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState , R } from 'react';
 import '../scss/App.css';
 import Header from './header/index';
 import Footer from './footer/index.old';
@@ -23,7 +23,10 @@ import Climate from './climate';
 import Shades from './shades';
 import Plans from './plans';
 
+
+
 const App = props => {
+
 
   return (<>
     <Router>
@@ -36,8 +39,10 @@ const App = props => {
         <Route exactly path='/climate' component={Climate} />
         <Route exactly path='/shades' component={Shades} />
         <Route exactly path='/plans' component={Plans} />
-        <Route path='/home' render={() => <h1 className="page-layout">welcome home!</h1>} />
+        <Route exactly path='/home' component={Plans} />
+        {/* <Route path='/home' render={() => <h1 className="page-layout">welcome home!</h1>} /> */}
         {/* <Route render={() => <h1 className="page-layout">Welcome!</h1>} /> */}
+        
       </Switch>
       <Footer />
     </Router>
