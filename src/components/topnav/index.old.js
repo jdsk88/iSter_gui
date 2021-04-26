@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink , useHistory} from "react-router-dom";
 
 console.log("TopNav componentd loaded");
 
@@ -7,12 +7,12 @@ console.log("TopNav componentd loaded");
 
 
 const TopNav = () => {
-
+  const history = useHistory();
   return (
     <>
       <div className="top-navbar-parent">
         <nav className="top-navbar-bottom-fucking-overflow">
-          <button to="/left" className="top-navbar-item">
+          <button onClick={() => { history.goBack() }} to="/left" className="top-navbar-item">
             <label className="top-navbar-item-label">Previus</label>
             <i className="fas fa-arrow-circle-left"></i>
           </button>
@@ -28,7 +28,7 @@ const TopNav = () => {
           </div>
           <div className="top-navbar-item">
           </div> */}
-          <NavLink to="/right" className="top-navbar-item">
+          <NavLink to="/setup" className="top-navbar-item">
             <i className="fas fa-cog"></i>
             <label className="top-navbar-item-label">Settings</label>
           </NavLink>

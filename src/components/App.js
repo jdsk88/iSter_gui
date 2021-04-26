@@ -22,6 +22,8 @@ import Settings from '../components/lighting/Settings';
 import Climate from './climate';
 import Shades from './shades';
 import Plans from './plans';
+import Dashboard from './dashboard';
+import Setup from './setup';
 
 
 
@@ -33,13 +35,14 @@ const App = props => {
       <Header />
       <TopNav />
       <Switch className="page-layout">
-        <Route exactly path='/music' component={Music} />
-        <Route exactly path='/video' component={Video} />
-        <Route exactly path='/lighting' component={Lighting} />
-        <Route exactly path='/climate' component={Climate} />
-        <Route exactly path='/shades' component={Shades} />
-        <Route exactly path='/plans' component={Plans} />
-        <Route exactly path='/home' component={Plans} />
+        <Route exact path='/music' component={Music} />
+        <Route exact path='/video' component={Video} />
+        <Route exact path='/lighting' component={Lighting} />
+        <Route exact path='/climate' component={Climate} />
+        <Route exact path='/shades' component={Shades} />
+        <Route exact path='/plans' component={Plans} />
+        <Route exact path='/home' component={Dashboard} />
+        <Route exact path='/setup' component={Setup} />
         {/* <Route path='/home' render={() => <h1 className="page-layout">welcome home!</h1>} /> */}
         {/* <Route render={() => <h1 className="page-layout">Welcome!</h1>} /> */}
         

@@ -1,2 +1,2 @@
-const api_url = "192.168.1.22:4000";
-export default api_url
+const api_url = "http://localhost:8888";
+export  default api_url;
